@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fabrice.parking.MainActivity"
+    android:background="@android:color/holo_orange_light">
+
+    <Button
+        android:id="@+id/map"
+        android:text="Trajet"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#fff"
+        android:background="#123485"
+        android:layout_width="100dp" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map" />
+</RelativeLayout>
